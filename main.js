@@ -27,6 +27,7 @@ class Utm_helper {
         self.all_utm[item] = get_param || get_cookie;
       }   
     });
+    self.start();
   }
 
   getParams = function(param) {
@@ -84,4 +85,3 @@ class Utm_helper {
 }
 
 let utm_helper = new Utm_helper();
-utm_helper.start();
